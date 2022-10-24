@@ -1,0 +1,40 @@
+*{
+    box-sizing: content-box;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin: 7px ;
+    box-sizing: 7px 7px;
+    padding: 8px;
+}
+.container{
+    background-color: antiquewhite;
+    border: 3px;
+    border-color: aliceblue;
+    border-radius: 4px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type=""],
+select
+{
+    background-color:azure;
+    width: 50%;
+    padding: 12 px;
+}
+fieldset{
+    background-color: aliceblue;
+}
+#main{
+    text-align: center;
+}
+input[type="submit"]
+{
+    background-color: rgb(148, 193, 148);
+    color: white;
+    padding: 22px 40px;
+    cursor: pointer;
+    width:50%;
+}
